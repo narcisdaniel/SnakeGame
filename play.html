@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Snake-Game</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+   	<link rel="shortcut icon" href="https://www.clipartmax.com/png/middle/129-1295046_animal-charm-hiss-poison-slither-snake-venom-snake-icon-png-green.png" type="image/x-icon" />
+   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	
+<nav class="fixed container"><a href="index.html" class="principal">SNAKE-GAME</a></nav>
+	
+	<div class="game-cont">
+	<figure><div class="game"><canvas id="snake" class="snk" width="600" height="600" ></canvas></div></figure>
+	</div>
+	<div class="content">
+	<h2 class="title">Your highscore!</h2>
+	<p id="null_content"></p>
+ 	<ul class="score">
+  		<li class="score" ><input type="text" id="person" placeholder="Name"></li>
+  		<li class="score"><button class="button" id="show" onclick="calculeaza()" >Show your highscore!</button></li>
+  		<li class="score"><button class="button" id="delete" onclick="deleted()">Delete your highscore!</button></li>
+</ul>
+</div>
+	<hr class="divider">
+ 	<footer id="ftr" class="ft-cont">
+ 		<nav>
+ 		<a href="https://www.facebook.com/dbuzatu1"><img alt="Facebook" src="img/facebook.png" class="socialm" ></a>
+ 		<a href="https://www.instagram.com/danielbuzatu112/"><img alt="Instagram"  src="img/insta.png" class="socialm" ></a>
+ 		<a href="https://www.youtube.com/user/M0m097/"><img alt="Youtube" src="img/yt.png" class="socialm" ></a>
+ 		<a href="https://plus.google.com/110678817299344215283?tab=wX"><img alt="Google+" src="img/gg.png" class="socialm" ></a>
+ 		</nav>
+ 	</footer>
+	
+
+
+ 	<script src="snake.js"></script>	
+
+    
+    
+  	
+  </body>
+</html>
